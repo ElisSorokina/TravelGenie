@@ -6,6 +6,34 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4FEBA8112EB058370011D77A /* AuthGateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA8052EB058370011D77A /* AuthGateView.swift */; };
+		4FEBA8122EB058370011D77A /* TravelGenieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA8002EB058370011D77A /* TravelGenieApp.swift */; };
+		4FEBA8132EB058370011D77A /* PlanTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA80B2EB058370011D77A /* PlanTripView.swift */; };
+		4FEBA8142EB058370011D77A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA8082EB058370011D77A /* LoginView.swift */; };
+		4FEBA8152EB058370011D77A /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA8022EB058370011D77A /* ChatViewModel.swift */; };
+		4FEBA8162EB058370011D77A /* TripDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA80F2EB058370011D77A /* TripDetailView.swift */; };
+		4FEBA8172EB058370011D77A /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA8012EB058370011D77A /* AppViewModel.swift */; };
+		4FEBA8182EB058370011D77A /* TripAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA7FC2EB058370011D77A /* TripAPIService.swift */; };
+		4FEBA8192EB058370011D77A /* MyTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA80A2EB058370011D77A /* MyTripView.swift */; };
+		4FEBA81A2EB058370011D77A /* TripViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA8032EB058370011D77A /* TripViewModel.swift */; };
+		4FEBA81B2EB058370011D77A /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA7FE2EB058370011D77A /* AppTheme.swift */; };
+		4FEBA81C2EB058370011D77A /* Back4AppService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA7FA2EB058370011D77A /* Back4AppService.swift */; };
+		4FEBA81D2EB058370011D77A /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA8092EB058370011D77A /* MainTabView.swift */; };
+		4FEBA81F2EB058370011D77A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA7F82EB058370011D77A /* Models.swift */; };
+		4FEBA8202EB058370011D77A /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA80D2EB058370011D77A /* RegisterView.swift */; };
+		4FEBA8212EB058370011D77A /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA7FB2EB058370011D77A /* Secrets.swift */; };
+		4FEBA8222EB058370011D77A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA80C2EB058370011D77A /* ProfileView.swift */; };
+		4FEBA8242EB058370011D77A /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA8062EB058370011D77A /* ChatView.swift */; };
+		4FEBA8262EB13C4F0011D77A /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA8252EB13C440011D77A /* Localization.swift */; };
+		4FEBA8282EB13CB70011D77A /* LocationsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA8272EB13CB20011D77A /* LocationsData.swift */; };
+		4FEBA82A2EB1562B0011D77A /* ChatMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA8292EB156250011D77A /* ChatMessageModel.swift */; };
+		4FEBA82D2EB186650011D77A /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA82C2EB186650011D77A /* UserProfile.swift */; };
+		4FEBA82F2EB1891D0011D77A /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA82E2EB189130011D77A /* LocationService.swift */; };
+		4FEBA8312EB18C100011D77A /* LocationModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA8302EB18C0C0011D77A /* LocationModels.swift */; };
+		4FEBA8332EB190990011D77A /* DayByDaySectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEBA8322EB1908F0011D77A /* DayByDaySectionView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		4FEBA7DC2EB054E00011D77A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,25 +55,33 @@
 		4FEBA7CE2EB054DE0011D77A /* TravelGenie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelGenie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FEBA7DB2EB054E00011D77A /* TravelGenieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelGenieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FEBA7E52EB054E10011D77A /* TravelGenieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelGenieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FEBA7F82EB058370011D77A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		4FEBA7FA2EB058370011D77A /* Back4AppService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Back4AppService.swift; sourceTree = "<group>"; };
+		4FEBA7FB2EB058370011D77A /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		4FEBA7FC2EB058370011D77A /* TripAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripAPIService.swift; sourceTree = "<group>"; };
+		4FEBA7FE2EB058370011D77A /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		4FEBA8002EB058370011D77A /* TravelGenieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelGenieApp.swift; sourceTree = "<group>"; };
+		4FEBA8012EB058370011D77A /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		4FEBA8022EB058370011D77A /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		4FEBA8032EB058370011D77A /* TripViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripViewModel.swift; sourceTree = "<group>"; };
+		4FEBA8052EB058370011D77A /* AuthGateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthGateView.swift; sourceTree = "<group>"; };
+		4FEBA8062EB058370011D77A /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		4FEBA8082EB058370011D77A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4FEBA8092EB058370011D77A /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		4FEBA80A2EB058370011D77A /* MyTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTripView.swift; sourceTree = "<group>"; };
+		4FEBA80B2EB058370011D77A /* PlanTripView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanTripView.swift; sourceTree = "<group>"; };
+		4FEBA80C2EB058370011D77A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		4FEBA80D2EB058370011D77A /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		4FEBA80F2EB058370011D77A /* TripDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailView.swift; sourceTree = "<group>"; };
+		4FEBA8252EB13C440011D77A /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		4FEBA8272EB13CB20011D77A /* LocationsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsData.swift; sourceTree = "<group>"; };
+		4FEBA8292EB156250011D77A /* ChatMessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageModel.swift; sourceTree = "<group>"; };
+		4FEBA82B2EB163980011D77A /* TripComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripComponents.swift; sourceTree = "<group>"; };
+		4FEBA82C2EB186650011D77A /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		4FEBA82E2EB189130011D77A /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		4FEBA8302EB18C0C0011D77A /* LocationModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModels.swift; sourceTree = "<group>"; };
+		4FEBA8322EB1908F0011D77A /* DayByDaySectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayByDaySectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		4FEBA7D02EB054DE0011D77A /* TravelGenie */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TravelGenie;
-			sourceTree = "<group>";
-		};
-		4FEBA7DE2EB054E00011D77A /* TravelGenieTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TravelGenieTests;
-			sourceTree = "<group>";
-		};
-		4FEBA7E82EB054E10011D77A /* TravelGenieUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TravelGenieUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4FEBA7CB2EB054DE0011D77A /* Frameworks */ = {
@@ -75,9 +111,12 @@
 		4FEBA7C52EB054DE0011D77A = {
 			isa = PBXGroup;
 			children = (
-				4FEBA7D02EB054DE0011D77A /* TravelGenie */,
-				4FEBA7DE2EB054E00011D77A /* TravelGenieTests */,
-				4FEBA7E82EB054E10011D77A /* TravelGenieUITests */,
+				4FEBA7F92EB058370011D77A /* Models */,
+				4FEBA7FD2EB058370011D77A /* Services */,
+				4FEBA7FF2EB058370011D77A /* Theme */,
+				4FEBA8002EB058370011D77A /* TravelGenieApp.swift */,
+				4FEBA8042EB058370011D77A /* ViewModels */,
+				4FEBA8102EB058370011D77A /* Views */,
 				4FEBA7CF2EB054DE0011D77A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +129,66 @@
 				4FEBA7E52EB054E10011D77A /* TravelGenieUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4FEBA7F92EB058370011D77A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4FEBA8302EB18C0C0011D77A /* LocationModels.swift */,
+				4FEBA7F82EB058370011D77A /* Models.swift */,
+				4FEBA82C2EB186650011D77A /* UserProfile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4FEBA7FD2EB058370011D77A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4FEBA82E2EB189130011D77A /* LocationService.swift */,
+				4FEBA7FA2EB058370011D77A /* Back4AppService.swift */,
+				4FEBA7FB2EB058370011D77A /* Secrets.swift */,
+				4FEBA7FC2EB058370011D77A /* TripAPIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4FEBA7FF2EB058370011D77A /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				4FEBA8272EB13CB20011D77A /* LocationsData.swift */,
+				4FEBA8252EB13C440011D77A /* Localization.swift */,
+				4FEBA7FE2EB058370011D77A /* AppTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		4FEBA8042EB058370011D77A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4FEBA8292EB156250011D77A /* ChatMessageModel.swift */,
+				4FEBA8012EB058370011D77A /* AppViewModel.swift */,
+				4FEBA8022EB058370011D77A /* ChatViewModel.swift */,
+				4FEBA8032EB058370011D77A /* TripViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4FEBA8102EB058370011D77A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4FEBA8322EB1908F0011D77A /* DayByDaySectionView.swift */,
+				4FEBA82B2EB163980011D77A /* TripComponents.swift */,
+				4FEBA8052EB058370011D77A /* AuthGateView.swift */,
+				4FEBA8062EB058370011D77A /* ChatView.swift */,
+				4FEBA8082EB058370011D77A /* LoginView.swift */,
+				4FEBA8092EB058370011D77A /* MainTabView.swift */,
+				4FEBA80A2EB058370011D77A /* MyTripView.swift */,
+				4FEBA80B2EB058370011D77A /* PlanTripView.swift */,
+				4FEBA80C2EB058370011D77A /* ProfileView.swift */,
+				4FEBA80D2EB058370011D77A /* RegisterView.swift */,
+				4FEBA80F2EB058370011D77A /* TripDetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +205,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				4FEBA7D02EB054DE0011D77A /* TravelGenie */,
 			);
 			name = TravelGenie;
 			packageProductDependencies = (
@@ -130,9 +226,6 @@
 			dependencies = (
 				4FEBA7DD2EB054E00011D77A /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				4FEBA7DE2EB054E00011D77A /* TravelGenieTests */,
-			);
 			name = TravelGenieTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +245,6 @@
 			);
 			dependencies = (
 				4FEBA7E72EB054E10011D77A /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				4FEBA7E82EB054E10011D77A /* TravelGenieUITests */,
 			);
 			name = TravelGenieUITests;
 			packageProductDependencies = (
@@ -236,6 +326,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FEBA8112EB058370011D77A /* AuthGateView.swift in Sources */,
+				4FEBA8122EB058370011D77A /* TravelGenieApp.swift in Sources */,
+				4FEBA8262EB13C4F0011D77A /* Localization.swift in Sources */,
+				4FEBA8132EB058370011D77A /* PlanTripView.swift in Sources */,
+				4FEBA82F2EB1891D0011D77A /* LocationService.swift in Sources */,
+				4FEBA8142EB058370011D77A /* LoginView.swift in Sources */,
+				4FEBA8152EB058370011D77A /* ChatViewModel.swift in Sources */,
+				4FEBA8162EB058370011D77A /* TripDetailView.swift in Sources */,
+				4FEBA8172EB058370011D77A /* AppViewModel.swift in Sources */,
+				4FEBA8182EB058370011D77A /* TripAPIService.swift in Sources */,
+				4FEBA8192EB058370011D77A /* MyTripView.swift in Sources */,
+				4FEBA81A2EB058370011D77A /* TripViewModel.swift in Sources */,
+				4FEBA8312EB18C100011D77A /* LocationModels.swift in Sources */,
+				4FEBA81B2EB058370011D77A /* AppTheme.swift in Sources */,
+				4FEBA81C2EB058370011D77A /* Back4AppService.swift in Sources */,
+				4FEBA81D2EB058370011D77A /* MainTabView.swift in Sources */,
+				4FEBA81F2EB058370011D77A /* Models.swift in Sources */,
+				4FEBA8282EB13CB70011D77A /* LocationsData.swift in Sources */,
+				4FEBA82D2EB186650011D77A /* UserProfile.swift in Sources */,
+				4FEBA8202EB058370011D77A /* RegisterView.swift in Sources */,
+				4FEBA8212EB058370011D77A /* Secrets.swift in Sources */,
+				4FEBA8332EB190990011D77A /* DayByDaySectionView.swift in Sources */,
+				4FEBA8222EB058370011D77A /* ProfileView.swift in Sources */,
+				4FEBA8242EB058370011D77A /* ChatView.swift in Sources */,
+				4FEBA82A2EB1562B0011D77A /* ChatMessageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
